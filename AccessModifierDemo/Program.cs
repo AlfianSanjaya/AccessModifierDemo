@@ -11,6 +11,13 @@ namespace AccessModifierDemo
             Console.WriteLine("Access Modifier Demo");
 
             Console.WriteLine("**********************");
+
+            int length = 10;
+
+            for (int i = 0; i < length; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
